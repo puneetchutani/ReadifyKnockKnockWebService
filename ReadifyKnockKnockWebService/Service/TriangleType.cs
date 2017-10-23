@@ -16,14 +16,14 @@ namespace ReadifyKnockKnockWebService.Service
         /// <returns>Type of triangle.</returns>
         public string WhichTriangleType(int a, int b, int c)
         {
-            if (a == b && a == c)
+            if (!IsTriangle(a, b, c))
+                return "Not a triangle";
+            else if (a == b && a == c)
                 return "Equilateral triangle";
             else if (a == b || a == c || b == c)
                 return "Isoseles triangle";
             else if (a != b && a != c && b != c)
                 return "Scalene triangle";
-            else if (!IsTriangle(a, b, c))
-                return "Not a triangle";
 
             return "Error";
         }

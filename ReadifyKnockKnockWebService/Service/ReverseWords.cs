@@ -21,14 +21,11 @@ namespace ReadifyKnockKnockWebService.Service
                 throw new ArgumentNullException("Value cannot be null.");
             }
 
-            string result = string.Empty;
-            var words = str.Split(separator);
-            foreach (var word in words)
-            {
-                Array.Reverse(word.ToCharArray());
-                result = result + word;
-            }
-            return result;
+            var reversedWords = string.Join(" ",
+                                str.Split(' ')
+                                .Select(x => new String(x.Reverse().ToArray()))
+                                .ToArray());
+            return reversedWords;
         }
     }
 }

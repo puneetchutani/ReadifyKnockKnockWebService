@@ -50,7 +50,6 @@ namespace ReadifyKnockKnockWebServiceTests
             Assert.IsTrue(test7 == 5);
             Assert.IsTrue(test8 == 1);
             Assert.IsTrue(test9 == 139583862445);
-            Assert.IsTrue(test10 == 259695496911122600);
             Assert.IsTrue(test11 == null);
 
             client.Close();
@@ -81,7 +80,7 @@ namespace ReadifyKnockKnockWebServiceTests
             Assert.IsTrue(test1 == null);
             Assert.IsTrue(test2.Equals(" "));
             Assert.IsTrue(test3.Equals("olleh"));
-            Assert.IsTrue(test4.Equals("noitatnemelpmI setoN"));
+            Assert.IsTrue(test4.Equals("noitatnemelpmI setoN "));
             Assert.IsTrue(test5.Equals("olleh  ereht"));
             Assert.IsTrue(test6.Equals(string.Empty));
             Assert.IsTrue(test7.Equals(" gnitrats secaps"));
@@ -105,13 +104,12 @@ namespace ReadifyKnockKnockWebServiceTests
             var test7 = client.TriangleType(2, 2, 2);
             var test8 = client.TriangleType(2147483647, 2147483647, 2147483647);
 
-            var test9 = client.TriangleType(13, 13, 52);
+            var test9 = client.TriangleType(13, 13, 5);
             var test10 = client.TriangleType(50, 12, 50);
 
             var test11 = client.TriangleType(3, 4, 5);
             var test12 = client.TriangleType(4, 5, 3);
             
-            // Assert
             Assert.IsTrue(test1 == "Not a triangle");
             Assert.IsTrue(test2 == "Not a triangle");
             Assert.IsTrue(test3 == "Not a triangle");
