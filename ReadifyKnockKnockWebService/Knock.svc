@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ReadifyKnockKnockWebService.Knock" CodeBehind="Knock.svc.cs" %>
