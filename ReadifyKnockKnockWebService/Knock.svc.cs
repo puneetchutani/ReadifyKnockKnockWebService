@@ -44,9 +44,7 @@ namespace ReadifyKnockKnockWebService
             {
                 throw;
             }
-            catch (Exception exception)
-            {
-            }
+            catch (Exception exception) { }
 
             return result;
         }
