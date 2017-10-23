@@ -63,7 +63,7 @@ namespace ReadifyKnockKnockWebService
             }
             catch (ArgumentNullException)
             {
-                throw;
+                throw new ArgumentNullException("Cannot have a null value");
             }
             catch (Exception e) { }
             return result;

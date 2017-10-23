@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6c7874ad-1133-448e-96e7-7c91ec92e83a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b4273815-10f0-4b84-bdf5-58ffad182bcf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:53929/Knock.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Knock.wsdl" MetadataType="Wsdl" ID="dd484bfe-05c7-466a-ad9e-f972ab4ab8de" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl=wsdl0" />
-    <MetadataFile FileName="Knock.xsd" MetadataType="Schema" ID="8bdbfcdc-3e8c-4f46-8d64-efc45acde72e" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?xsd=xsd0" />
-    <MetadataFile FileName="Knock1.xsd" MetadataType="Schema" ID="c87cab53-f938-48bc-b858-bd3929802aa4" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?xsd=xsd1" />
-    <MetadataFile FileName="Knock1.wsdl" MetadataType="Wsdl" ID="804bda31-4a3c-4953-b9a1-60005729cd9e" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl" />
-    <MetadataFile FileName="Knock2.wsdl" MetadataType="Wsdl" ID="e51eb0ee-2341-4acf-8a85-803347f0270d" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl=wsdl1" />
+    <MetadataFile FileName="Knock.wsdl" MetadataType="Wsdl" ID="be0c2a4b-bd27-40b6-b8bb-df2dc580367b" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Knock.xsd" MetadataType="Schema" ID="9b2c81aa-1965-4b70-bd0e-26c6c0f8436d" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?xsd=xsd0" />
+    <MetadataFile FileName="Knock1.xsd" MetadataType="Schema" ID="02b1e656-7ff4-441e-a71f-6fe72fb8c69f" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?xsd=xsd1" />
+    <MetadataFile FileName="Knock1.wsdl" MetadataType="Wsdl" ID="a9ac4796-312d-4b06-a038-e04bbdb9e350" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl" />
+    <MetadataFile FileName="Knock2.wsdl" MetadataType="Wsdl" ID="5c64a7ec-4f5d-4c26-8228-40b2fb5f0c2c" SourceId="1" SourceUrl="http://localhost:53929/Knock.svc?wsdl=wsdl1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

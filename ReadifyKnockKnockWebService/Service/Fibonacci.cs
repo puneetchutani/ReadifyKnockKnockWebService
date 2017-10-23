@@ -22,14 +22,31 @@ namespace ReadifyKnockKnockWebService.Service
             if (num > Max || num < -Max)
                 throw new ArgumentOutOfRangeException(String.Format("The index cannot exeed {0} or cannot be less than -{0}",Max));
 
-            int a = 0, b = 1, c = 0;
-            for (int i = 2; i < num; i++)
+            long sum = 0, a = 1, b = 1;
+            int i = 2;
+            var number = Math.Abs(num);
+
+            if (number == 1 || number == 0)
+                return number;
+            else
             {
-                c = a + b;
-                a = b;
-                b = c;
+                if (number == 2)
+                    return 1;
+                else
+                {
+                    while (i != number)
+                    {
+                        sum = a + b;
+                        a = b;
+                        b = sum;
+                        ++i;
+                    }
+                    if (num < 0 && num % 2 == 0)
+                        return -sum;
+                    else
+                        return sum;
+                }
             }
-            return c;
         }
     }
 }

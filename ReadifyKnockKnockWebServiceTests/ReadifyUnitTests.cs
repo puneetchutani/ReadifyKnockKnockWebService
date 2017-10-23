@@ -4,6 +4,7 @@ using ReadifyKnockKnockWebServiceTests.KnockService;
 
 namespace ReadifyKnockKnockWebServiceTests
 {
+    [TestClass]
     public class ReadifyUnitTests
     {
         [TestMethod]
