@@ -91,6 +91,12 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReadifyKnockKnockWebService\ReadifyKnockKnockWebService.csproj">
+      <Project>{b6f5b068-8607-4328-aaf9-85a49c14d0a3}</Project>
+      <Name>ReadifyKnockKnockWebService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
